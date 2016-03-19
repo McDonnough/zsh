@@ -19,7 +19,6 @@ alias today='date +"%d-%m-%Y"'
 alias ports='netstat -tulanp'
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias lines='wc -l'
-alias sprunge="curl -F 'sprunge=<-' http://sprunge.us"
 
 extract () {
   if [ -f $1 ] ; then

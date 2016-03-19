@@ -10,6 +10,7 @@ if fgrep --color "a" <<<"a" &>/dev/null; then
 fi
 alias mkdir='mkdir -p -v'
 alias df='df -h'
+alias ll='l'
 
 # new
 alias path='echo -e ${PATH//:/\\n}'

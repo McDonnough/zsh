@@ -61,3 +61,6 @@ adig() {
   done
 }
 
+weather() {
+    curl -s "http://wttr.in/${1}"
+}

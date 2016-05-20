@@ -60,3 +60,4 @@ adig() {
     _dig "$domain" "$t"
   done
 }
+

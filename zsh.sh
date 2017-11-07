@@ -11,7 +11,7 @@ fi
 alias mkdir='mkdir -p -v'
 alias df='df -h'
 alias l='ls --color=auto'
-alias ll='l'
+alias ll='l -la'
 
 # new
 alias path='echo -e ${PATH//:/\\n}'

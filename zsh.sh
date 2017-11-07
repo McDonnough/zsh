@@ -10,6 +10,7 @@ if fgrep --color "a" <<<"a" &>/dev/null; then
 fi
 alias mkdir='mkdir -p -v'
 alias df='df -h'
+alias l='ls --color=auto'
 alias ll='l'
 
 # new

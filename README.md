@@ -1,4 +1,4 @@
 # zsh
-Personal zsh configurations. To install, run the following command:
+Personal zsh configurations. To use, add the following line to .zshrc:
 
-    antigen bundle McDonnough/zsh
+    zplug "McDonnough/zsh"

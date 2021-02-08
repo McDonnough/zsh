@@ -17,7 +17,7 @@ alias ll='l -la'
 alias path='echo -e ${PATH//:/\\n}'
 alias now='date "+%T"'
 alias today='date +"%d-%m-%Y"'
-alias ports='netstat -tulanp'
+alias ports='netstat -tulpn'
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias lines='wc -l'
 
